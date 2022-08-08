@@ -1,0 +1,164 @@
+/* #### BOOTSTRAP ICONS ####### */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+/* FONTS GOOGLE */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+
+/* PALETA DE COLORES ELEGIDA
+https://colorhunt.co/palette/809a6fa25b5bcc9c75d5d8b5
+*/
+
+body{
+  background-color: #809A6F;
+  font-family: 'Raleway', sans-serif;
+}
+
+.card-body, .intro{
+  background-color: #D5D8B5;
+}
+
+.intro{
+  border-radius: 20px;
+}
+
+h2{
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+h5{
+  font-weight: 600;
+}
+
+/* #### NAVEGACION #### */
+.navegacion {
+  background-color: #A25B5B;
+}
+
+.navegacion a{
+  font-size: 1.2rem;
+}
+
+
+/* ### DELIVERY #### */
+.delivery{
+  width: 75%;
+  background-color: #D5D8B5;
+  border-radius: 20px;
+
+}
+
+.delivery img{
+  width: 4rem;
+}
+
+/* ### FOOTER## */
+footer{
+  background-color: #CC9C75;
+}
+
+/* ############################################## */
+/* ################ MEDIA QUERIES ############### */
+/* ############################################## */
+
+/* ############ TABLET ########### */
+@media all and (min-width:720px){
+  .burger .card{
+    height: 550px;
+  }
+  
+  .pizza  img{
+    height: 350px;
+  }
+
+  .pinta .card{
+    height: 612px;
+  }
+
+  .pinta img{
+    height: 334px;
+  }
+
+  .papas img{
+    height: 300px;
+  }
+
+  .papas .card{
+    height: 466px;
+  }
+
+  /* ### DELIVERY #### */
+.delivery{
+  width: 50%;
+  font-size: 1.2rem;
+}
+
+}
+
+
+/* ######## DESKTOP ########### */
+@media all and (min-width:920px) {
+    /* ### DELIVERY #### */
+.delivery{
+  width: 25%;
+  font-size: 1rem;
+}
+
+/* ##### INTRODUCCION ### */
+.intro article {
+  width: 70%;
+}
+
+
+/* ### MAIN #### */
+.burger, .pizza, .pinta, .papas{
+  width: 80%;
+}
+
+.burger .card{
+  height: 480px;
+}
+
+.pizza  img{
+  height: 250px;
+}
+
+.pizza .card{
+  height: 490px;
+}
+
+.pinta img{
+  height: 250px;
+}
+
+.pinta .card{
+  height: 650px;
+}
+
+.papas img{
+  height: 200px;
+}
+
+.papas .card{
+  height: 400px;
+  height: 440px;
+}
+
+.navbar-nav{
+  justify-content: center;
+}
+
+.btn{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.navegacion a{
+  font-size: 1rem;
+}
+}
